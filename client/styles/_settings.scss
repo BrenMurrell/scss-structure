@@ -1,0 +1,24 @@
+// COLORS
+
+$col-copy: #222222;
+$col-copy-alt: #ffffff;
+$col-success: #009900;
+$col-warn: #bb0000;
+
+$border-radius: 0.4rem;
+
+// Breakpoints
+$breakpoints: (
+    "sm" : 54rem,    // 540px
+    "md" : 76rem,       // 760px
+    "lg" : 100rem,       // 1000px
+    "xl" : 144rem        // 1440px
+);
+
+// Dump our breakpoints into some vars for easy reference in breakpoint mixins
+$sm:  map-get($breakpoints, sm);
+$md:  map-get($breakpoints, md);
+$lg:  map-get($breakpoints, lg);
+$xl:  map-get($breakpoints, xl);
+
+$box-shadow: 0 2px 2px rgba(0,0,0,0.4)

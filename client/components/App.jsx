@@ -21,6 +21,23 @@ export class App extends React.Component {
             <li key={fruit}>{fruit}</li>
           ))}
         </ul>
+        <div className="cards">
+          <div className="card">
+            <button class='btn'>Example button</button>
+            <button class='btn btn--warn'>Example button</button>
+            <button class='btn btn--success'>Example button</button>
+          </div>
+          <div className="card">
+            <button class='btn'>Example button</button>
+            <button class='btn btn--warn'>Example button</button>
+            <button class='btn btn--success'>Example button</button>
+          </div>
+          <div className="card">
+            <button class='btn'>Example button</button>
+            <button class='btn btn--warn'>Example button</button>
+            <button class='btn btn--success'>Example button</button>
+          </div>
+        </div>
       </div>
     )
   }

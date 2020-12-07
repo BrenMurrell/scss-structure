@@ -1,0 +1,17 @@
+.btn {
+  border: 2px solid;
+  border-radius: 2.4rem;
+  background: transparent;
+  
+  &--warn {
+    background-color:$col-warn;
+    color: $col-copy-alt;
+    border-color: $col-copy;
+  }
+
+  &--success {
+    background-color: $col-success;
+    color: $col-copy-alt;
+    border-color: $col-copy;
+  }
+}
